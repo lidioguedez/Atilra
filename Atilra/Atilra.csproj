@@ -102,8 +102,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
-    <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -122,6 +120,14 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="EstudiosPeriodo.aspx" />
+    <Content Include="FacturarObraSocial.aspx" />
+    <Content Include="IngresarActualizarPrecios.aspx" />
+    <Content Include="IngresarEstudiosProgramados.aspx" />
+    <Content Include="IngresarPrecios.aspx" />
+    <Content Include="PacientesCoberturaPago.aspx" />
+    <Content Include="PacientesViejosApellido.aspx" />
+    <Content Include="_Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -187,27 +193,69 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EstudiosPeriodo.aspx.cs">
+      <DependentUpon>EstudiosPeriodo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EstudiosPeriodo.aspx.designer.cs">
+      <DependentUpon>EstudiosPeriodo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FacturarObraSocial.aspx.cs">
+      <DependentUpon>FacturarObraSocial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FacturarObraSocial.aspx.designer.cs">
+      <DependentUpon>FacturarObraSocial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IngresarActualizarPrecios.aspx.cs">
+      <DependentUpon>IngresarActualizarPrecios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IngresarActualizarPrecios.aspx.designer.cs">
+      <DependentUpon>IngresarActualizarPrecios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IngresarEstudiosProgramados.aspx.cs">
+      <DependentUpon>IngresarEstudiosProgramados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IngresarEstudiosProgramados.aspx.designer.cs">
+      <DependentUpon>IngresarEstudiosProgramados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IngresarPrecios.aspx.cs">
+      <DependentUpon>IngresarPrecios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IngresarPrecios.aspx.designer.cs">
+      <DependentUpon>IngresarPrecios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PacientesCoberturaPago.aspx.cs">
+      <DependentUpon>PacientesCoberturaPago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PacientesCoberturaPago.aspx.designer.cs">
+      <DependentUpon>PacientesCoberturaPago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PacientesViejosApellido.aspx.cs">
+      <DependentUpon>PacientesViejosApellido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PacientesViejosApellido.aspx.designer.cs">
+      <DependentUpon>PacientesViejosApellido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Default.aspx.cs">
+      <DependentUpon>_Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Default.aspx.designer.cs">
+      <DependentUpon>_Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
